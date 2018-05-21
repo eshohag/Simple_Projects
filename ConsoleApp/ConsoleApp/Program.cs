@@ -15,6 +15,8 @@ namespace ConsoleApp
             Console.WriteLine("Enter your Phone Number");
             string phoneNumber = Console.ReadLine();
             Console.WriteLine(phoneNumber);
+            
+            Console.WriteLine("Hello Test Simple Project Branch!");
             Console.ReadKey();
         }
     }
