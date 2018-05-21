@@ -11,6 +11,10 @@ namespace ConsoleApp
             {
                 Console.WriteLine("Number-" + i);
             }
+
+            Console.WriteLine("Enter your Phone Number");
+            string phoneNumber = Console.ReadLine();
+            Console.WriteLine(phoneNumber);
             Console.ReadKey();
         }
     }
